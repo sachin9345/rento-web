@@ -1,0 +1,151 @@
+.car-rental {
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .location-select {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .location-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #212529;
+    color: white;
+    height: 60px;
+    width: 210px;
+    border-radius: 12px;
+  }
+  
+  .black-background {
+    background-color: #212529;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+   
+  }
+  
+  .date-picker {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .date-wrapper {
+    background-color: #212529;
+    height: 60px;
+    width: 380px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .day {
+    color: #FFFFFF;
+  }
+  
+  .filter-button {
+    padding: 5px 10px;
+  }
+  
+  .filter-section {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .car-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .car-card {
+    background-color: #E9ECEF;
+
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .car-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .car-details {
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .car-info {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .car-info span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .car-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .car-price {
+    font-size: 1.5rem;
+    font-weight:600;
+  }
+  
+  .book-button {
+    background-color: #000000;
+    color: white;
+    width: 180px;
+    height: 40px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+  }
+  
+  .book-button:hover {
+    background-color: #333;
+  }
+  
+  .car-duration {
+    font-size: 0.9rem;
+    color: gray;
+    margin: 0;
+  }
+  h3{
+   margin: 0;
+   text-align: left;
+  }
+ p{
+    margin: 10px 0;
+ }
+ .location-wrapper img{
+    padding-left: 22px;
+ }
+ .stend{
+  padding-left: 20px;
+  font-size: 16px;
+ }

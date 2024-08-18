@@ -1,0 +1,61 @@
+/* Container for the entire overview page */
+.overview-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styling */
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for each section */
+  .overview-section {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Section title styling */
+  .overview-section h2 {
+    margin-top: 0;
+    color: #007bff;
+  }
+  
+  /* Paragraph styling for details */
+  .overview-section p {
+    margin: 5px 0;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Strong text for labels */
+  .overview-section p strong {
+    color: #333;
+  }
+  
+  /* Button styling */
+  .place-order-button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .place-order-button:hover {
+    background-color: #0056b3;
+  }
+  

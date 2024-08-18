@@ -1,0 +1,141 @@
+/* Container */
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.rental-container {
+    display: flex;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+/* White Section */
+.rental-white-section {
+    background-color: white;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    padding-bottom: 200px;
+    position: relative;
+    z-index: 2;
+}
+
+/* Heading */
+.rental-white-section h1 {
+    font-weight: bold;
+    font-size: 46px;
+    margin: 0;
+}
+
+/* Subheading */
+.rental-subheading {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+/* Light Text */
+.rental-light-text {
+    font-size: 14px;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+/* City Dropdown */
+.rental-input-container {
+    margin-top: 5px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    width: 480px;
+    z-index: 3;
+    position: relative;
+}
+
+.rental-input-container input {
+    border: none;
+    width: 400px;
+    margin-left: 20px;
+    outline: none; /* Removes default focus outline */
+}
+
+.rental-input-container input:focus {
+    outline: none; /* Ensures no focus outline or border */
+    box-shadow: none; /* Removes any potential box shadow */
+    border: none; /* Ensure border stays removed */
+}
+
+/* Black Section */
+.rental-black-section {
+    background-color: #121212;
+    width: 40%;
+    z-index: 1;
+}
+
+/* Image (Cordilla) */
+.rental-cordilla {
+    position: absolute;
+    height: 500px;
+    top: 50%;
+    left: 68%; /* Adjusted to make sure it's visible */
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Ensure it's on top of the black section */
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Adjust input class */
+.rental-input {
+    border: none;
+    width: 400px;
+    outline: none; /* Removes focus outline when clicking */
+}
+
+.rental-second-container {
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+.rental-listing {
+    padding-left: 50px;
+    width: 300px;
+    display: flex;
+    gap: 100px;
+}
+
+.rental-para {
+    width: 400px;
+    text-align: justify;
+}
+
+.rental-header {
+    text-align: center;
+}
+
+.rental-third-container {
+    display: flex;
+}
+
+.rental-right-para {
+    width: 650px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.rental-right-container {
+    padding-top: 170px;
+    padding-left: 30px;
+}
+
+.rental-child1 img {
+    padding-top: 130px;
+}
+.rental-about-header{
+    padding-left: 50px;
+    padding-top: 40px;
+}

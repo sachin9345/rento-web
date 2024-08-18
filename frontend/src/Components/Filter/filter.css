@@ -1,0 +1,107 @@
+/* Global Styles */
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Filter Component Styles */
+.filter {
+    width: 432px;
+    margin: 0 auto; /* Center the filter on the page */
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.filter h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #333;
+    
+}
+
+.filter p {
+    font-size: 16px;
+    margin-bottom: 24px;
+    color: #666;
+    font-weight: 300;
+    font-style: normal;
+    
+}
+
+.filter .Dropdown-root {
+    margin-bottom: 16px;
+    border-radius: 9px;
+}
+
+.filter .Dropdown-control {
+    padding: 12px;
+    border-radius: 9px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #333;
+}
+
+.filter .Dropdown-arrow {
+    margin-left: auto;
+}
+
+.filter .Dropdown-placeholder {
+    color: #999;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.filter .Dropdown-menu {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.filter .Dropdown-option {
+    padding: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #333;
+}
+
+.filter .Dropdown-option.is-selected {
+    background-color: #e0e0e0;
+}
+
+.filter .Dropdown-option:hover {
+    background-color: #f0f0f0;
+}
+
+.filter .Dropdown-option svg {
+    margin-right: 8px;
+    font-size: 16px;
+    color: #666;
+}
+
+/* Scrollbar styling for the dropdown menu */
+.filter .Dropdown-menu::-webkit-scrollbar {
+    width: 8px;
+}
+
+.filter .Dropdown-menu::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+}
+
+.filter .Dropdown-menu::-webkit-scrollbar-track {
+    background-color: #f9f9f9;
+}

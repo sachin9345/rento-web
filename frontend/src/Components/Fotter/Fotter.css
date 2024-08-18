@@ -1,0 +1,38 @@
+.foot-whole{
+    height: 550px;
+}
+.foot-top{
+    display: flex;
+    gap: 180px;
+    margin: 80px;
+    padding-left: 180px;
+    padding-top: 100px;
+}
+.foot-bottom{
+    align-items: center;
+    justify-content: center;
+    padding-left: 700px;
+}
+.foor-flex{
+    display: flex;
+    gap: 30px;
+    padding-left: 70px;
+    margin-top: 30px;
+}
+.foot-para{
+    padding-right: 200px;
+    padding-top: 20px;
+}
+.image-foot{
+    padding-left: 40px;
+}
+.foot-top h2{
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+}
+.foot-top p{
+    padding-top: 12px;
+    color: #848997;
+}
+

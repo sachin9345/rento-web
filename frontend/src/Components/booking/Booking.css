@@ -1,0 +1,318 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Main Container */
+.book-booking-container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+}
+
+/* Left Section */
+.book-left-section {
+    background: linear-gradient(to bottom, #121212, #212529);
+    flex: 1.2; /* Slightly reduce width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-car-size {
+    text-align: center;
+}
+
+.book-inova {
+    width: auto; /* Maintain aspect ratio */
+    height: 400px; /* Set the height for the car image */
+}
+
+/* Text and Layout */
+.book-words {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.book-words h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.book-words p {
+    color: white;
+    font-weight: 100;
+}
+
+/* Flex Layout */
+.book-flex {
+    display: flex;
+    gap: 20px;
+    justify-content: center; /* Centers flex items horizontally */
+    margin-top: 10px;
+}
+
+.book-single {
+    display: flex;
+    flex-direction: row; /* Align items side by side */
+    align-items: center;
+    color: white;
+}
+
+.book-single img {
+    margin-right: 10px; /* Space between icon and text */
+}
+
+/* Right Side Content */
+.book-right-side {
+    background-color: white; /* White background for the right side */
+    flex: 0.7; /* Increase to 0.8 to make better use of space */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.book-centre-items h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+/* Pricing Section */
+.book-wat {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.book-something h2, .book-some h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.book-something h4, .book-some h4 {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+}
+
+.book-some h4.blue {
+    color: #007bff;
+    cursor: pointer;
+}
+
+/* Buttons Section */
+.book-buttons {
+    display: flex;
+    gap: 40px; /* Reduce space between buttons */
+    margin-top: 20px;
+    padding-left: 8px;
+}
+
+.book-styled-button {
+    padding: 12px 40px; /* Adjusted padding for smaller buttons */
+    background-color: #000; /* Black background */
+    color: white; /* White text color */
+    border: none; /* No border */
+    cursor: pointer;
+    font-size: 16px; /* Font size */
+    border-radius: 12px; /* Rounded corners */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center; /* Center content */
+}
+
+.book-styled-button:hover {
+    background-color: #333; /* Slightly lighter shade on hover */
+}
+
+.book-styled-button .icon {
+    margin-right: 8px; /* Space between icon and text */
+    color: white; /* White icon color */
+}
+
+/* Date Picker Section */
+.book-date {
+    margin-top: 20px;
+}
+
+.book-date input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Date Edit List */
+.book-date-edit-list {
+    list-style: none;  
+    padding-left: 180px; /* Adjust padding for alignment */
+}
+
+.book-date-edit-list li {
+    margin: 5px 0; /* Add some margin between list items */
+}
+
+.book-date-edit-list a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.book-date-edit-list a:hover {
+    color: #0056b3; /* Darker shade on hover */
+    text-decoration: underline;
+}
+
+/* Terms and Conditions Section */
+.book-flexxx {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-left: 150px; /* Adjusted padding to align terms */
+}
+
+.book-flexxx img {
+    padding-bottom: 5px;
+}
+
+.book-flexxx p {
+    font-size: 14px;
+    color: #007bff;
+    cursor: pointer;
+}
+
+/* Sandy Section */
+.book-sandy {
+    margin-top: 30px;
+    padding: 10px 60px; /* New padding style */
+    background-color: #343A40; /* Black background */
+    color: white; /* White text color */
+    border: none; /* No border */
+    cursor: pointer;
+    font-size: 16px; /* Font size */
+    border-radius: 9px; /* Rounded corners */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center; /* Center content */
+}
+
+/* Center the switch container on the page */
+.book-switch-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+/* Main switch styling */
+.book-switch {
+    display: flex;
+    width: 280px;
+    height: 40px;
+    background-color: #6D7379; /* Background of the switch */
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+/* Styling for the individual options */
+.book-switch-option {
+    flex: 1; /* Allows options to take up equal space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff; /* Default text color */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+    z-index: 1;
+    cursor: pointer; /* Change cursor to pointer to indicate clickable */
+}
+
+/* Toggle slider styling */
+.book-switch-toggle {
+    width: 50%; /* Adjust to fit the toggle */
+    height: 100%;
+    background-color: #E9ECEF; /* Toggle background color */
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    transition: left 0.3s ease, background-color 0.3s ease;
+}
+
+/* Toggle position when Door Delivery is selected */
+.book-door-delivery .book-switch-toggle {
+    left: 0;
+}
+
+/* Change text color to black for Door Delivery when selected */
+.book-door-delivery .book-switch-option:first-child {
+    color: #000000;
+}
+
+/* Toggle position when Pick Up is selected */
+.book-pick-up .book-switch-toggle {
+    left: 50%;
+}
+
+/* Change text color to black for Pick Up when selected */
+.book-pick-up .book-switch-option:nth-child(2) {
+    color: #000000;
+}
+
+/* Ensure consistent text color on hover */
+.book-switch-option:hover {
+    color: #ffffff; /* Text color remains white on hover */
+}
+
+.book-back-button {
+    background: #f5f5f5;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .book-back-button .icon {
+    margin-right: 8px;
+  }
+  
+  .book-date-input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  /* New styles for small back button */
+  .book-small-back-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .book-small-back-button {
+    background: #e0e0e0;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .book-small-back-button .icon {
+    margin-right: 5px;
+  }
+  

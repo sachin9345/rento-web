@@ -1,0 +1,201 @@
+body-sign {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+.container-sign {
+    display: flex;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+/* Logo Styling */
+.logo-sign img {
+    padding-left: 20px;
+    padding-top: 15px;
+    width: 173px;
+    height: 71px;
+}
+
+/* Login Content Styling */
+.login-content-sign {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Aligns content to the start */
+}
+
+.login-content-sign p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.login-content-sign h1 {
+    margin: 0;
+    font-size: 3rem;
+    padding-top: 5px;
+}
+
+/* Input Container Styling */
+.input-container-sign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px; /* Add space between input fields */
+}
+
+.input-container-sign label {
+    margin-right: 10px; /* Spacing between label and input */
+    font-size: 1rem; /* Adjust font size */
+}
+
+.login-content-sign input {
+    border: 1px solid #E0E3E6;
+    border-radius: 9px;
+    padding: 12px;
+    width: 400px;
+    outline: none;
+    text-align: left; /* Input text will be left-aligned */
+}
+
+input-sign {
+    padding-right: 20px;
+    font-size: 16px;
+    color: #495057;
+    font-weight: 500;
+}
+
+.password-sign {
+    border: 1px solid #E0E3E6;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: row;
+}
+
+.confirm-password-sign {
+    border: 1px solid #E0E3E6;
+    margin-top: 10px;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: row;
+}
+.password-sign img {
+    padding-top: 5px;
+    padding-right: 10px;
+
+}
+
+.confirm-password-sign img {
+    padding-top: 5px;
+    padding-right: 10px;
+
+}
+.confirm-password-sign input {
+    border: none;
+    width: 395px;
+}
+.password-sign input {
+    border: none;
+    width: 395px;
+}
+
+.eye-button-sign {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: -30px; /* Adjust as necessary to position the icon */
+    padding: 0; /* Remove default button padding */
+    z-index: 1;
+    display: inline-block; /* Ensures it is clickable */
+}
+.signin-button-sign {
+    padding: 14px 70px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 14px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #343A40;
+    color: #ffffff;
+    border-radius: 9px;
+
+}
+/* White Section Styling */
+.white-section-sign {
+    background-color: white;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align content to the start */
+    justify-content: center;
+    padding-left: 50px;
+    padding-bottom: 200px;
+    position: relative;
+    z-index: 2;
+}
+
+/* Black Section Styling */
+.black-section-sign {
+    background-color: #121212;
+    width: 40%;
+    z-index: 1;
+}
+
+/* Image (Cordilla) */
+.cordilla-sign {
+    position: absolute;
+    top: 50%;
+    left: 70%; /* Adjusted to make sure it's visible */
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Ensure it's on top of the black section */
+    width: 60%; /* Adjusted width */
+    height: auto; /* Maintains aspect ratio */
+}
+
+.input-num-sign {
+    padding-bottom: 12px;
+}
+
+.input-mail-sign {
+    padding-bottom: 12px;
+}
+
+.input-name-sign {
+    padding-top: 10px;
+    padding-bottom: 12px;
+}
+
+.logo-container-sign {
+    display: flex;
+}
+.logo-sign {
+    flex-basis: 60%;
+    padding-right: 20px;
+    background-color: #ffffff;
+}
+.blackcontainer-sign {
+    background-color: #121212;
+    z-index: 4;
+}
+.loginmodes-sign {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.icon-div-sign {
+    border: 1px solid #ADB5BD;
+    
+}
+
+.signup-sign {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
