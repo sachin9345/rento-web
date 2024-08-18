@@ -18,7 +18,7 @@ const Login = () => {
 
   const handleLogin = async () => {
     try {
-      const response = await axios.post('https://hackathon-wny1.vercel.app/api/v1/login', {
+      const response = await axios.post('https://hackathon-zuru.vercel.app/api/v1/login', {
         email,
         password
       });
