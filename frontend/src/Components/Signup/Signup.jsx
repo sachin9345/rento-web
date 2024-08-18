@@ -35,7 +35,7 @@ const Signup = () => {
         }
 
         try {
-            const response = await axios.post('https://hackathon-wny1.vercel.app/api/v1/register', {
+            const response = await axios.post('https://hackathon-3-6lb7.onrender.com/api/v1/register', {
                 name,
                 mobile,
                 email,
