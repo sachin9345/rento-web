@@ -14,7 +14,7 @@ const {
  } = require('../controllers/authController');
 
 const router = express.Router();
-const {isAuthenticatedUser,authorizeRoles }= require('../middlewares/authenticate')
+const {isAuthenticatedUser,authorizeRoles }= require('../Middlewares/authenticate')
 /*
 //const multer = require('multer');
 //const path = require('path')
