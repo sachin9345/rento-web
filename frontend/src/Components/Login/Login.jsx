@@ -84,7 +84,7 @@ const Login = () => {
                 <img src={xicon} alt="x" className="login-login-icon" />
               </div>
             </div>
-            <p className="login-signup">New to Rento?<Link to="/sign-up"><span>Sign up</span></Link></p>
+            <p className="login-signup">New to Rento?<Link to="/sign-in"><span>Sign up</span></Link></p>
           </div>
         </div>
         <img className="login-cordilla" src={car} alt="car" />
