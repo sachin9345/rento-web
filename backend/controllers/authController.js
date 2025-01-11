@@ -91,8 +91,7 @@ exports.updateUser = catchAsyncError(async (req, res, next) => {
         user
     })
 })
-
-
+//sachin
 exports.deleteUser = catchAsyncError(async (req, res, next) => {
     const user = await User.findById(req.params.id);
     if(!user) {
