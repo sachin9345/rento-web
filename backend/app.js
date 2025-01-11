@@ -22,15 +22,7 @@ const auth = require('./routes/auth')
 app.use('/api/v1/',auth);
 
 
-// Serve static files for production build and handle the root URL
-//if (process.env.NODE_ENV === 'production') {
-  //  app.use(express.static(path.join(__dirname, '../frontend/build')));
-//}
 
-// Handle all other routes by serving the frontend's index.html
-//app.get('*', (req, res) => {
-  //  res.sendFile(path.resolve(__dirname, '../frontend/build', 'index.html'));
-//});
 
 app.use(errorMiddleware)
 module.exports = app;
