@@ -52,7 +52,7 @@ userSchema.methods.getJwtToken = function(){
 userSchema.methods.isValidPassword = async function(enteredPassword){
    return await  bcrypt.compare(enteredPassword, this.password)
 }
-
+//sachin
 userSchema.methods.getResetToken = function(){
     //Generate Token
     const token = crypto.randomBytes(20).toString('hex');
